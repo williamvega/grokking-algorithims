@@ -1,6 +1,6 @@
-# grokking-algorithims
+# grokking-algorithms
 
-Writing the algos from the book in C# and testing using MSTest.
+Writing the algos from the book[https://amzn.to/3NoFUMT] in C# and testing using MSTest.
 
 The algorithms are originally written in Python 2.7 and the most direct translation will be included in their own method.
 
