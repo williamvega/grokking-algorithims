@@ -31,5 +31,22 @@
       }
       return returnIndex;
     }
+
+    // finds the index of the item in the list with the least value
+    // time complexity: n
+    public static int FindSmallest(List<int> list)
+    {
+      int minValue = list[0];
+      int returnIndex = -1;
+      for (int i = 0; i < list.Count; i++)
+      {
+        if (list[i] < minValue)
+        {
+          minValue = list[i];
+          returnIndex = i;
+        }
+      }
+      return returnIndex;
+    }
   }
 }
